@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Demo-app
+  SAM Template for demo-app
+
+# More info about
+Globals:
+  Function:
+    Timeout: 10
+
+Resources:
+  mylambdaFunction:
+    Type: AWS::Serverless::Function 
+    Properties:
+      CodeUri: Function/
+      Handler: app.lambdaHandler
+      Runtime: nodejs18.x
+      Architectures:
+      - x86_64
+      Events:
+        HelloWorld:
+          Type: Api 
+          Properties:
+            Path: /Function
+            Method: get
+      
+      Environment:
+        Variables:
+          DB_SECRET_NAME: "aws/secret/dbExchange"
+          
+
+Outputs:
+  
+  HelloWorldApi:
+    Description: API Gateway endpoint URL for Prod stage for My lambda Function
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/Function/"
+  

@@ -1,0 +1,9 @@
+{
+  "main": "app.mjs",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.507.0",
+    "aws-sdk": "^2.1551.0",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1"
+  }
+}
