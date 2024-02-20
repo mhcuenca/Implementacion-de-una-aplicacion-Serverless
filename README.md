@@ -30,9 +30,9 @@ Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente c
 
 <h2>Instalacion de AWS CLI y CLI AWS SAM</h2>
 
-<p>Haremos uso de IDE(Visual Studio Code) para crear la plantillas de AWS SAM y la funcion Lambda
+<pre>Haremos uso de IDE(Visual Studio Code) para crear la plantillas de AWS SAM y la funcion Lambda
 Para utilizar la CLI de AWS SAM, necesita lo siguiente:
-</p>
+</pre>
 <ul>
   <li>Una cuenta de AWS, credenciales de (IAM) y un par de claves de acceso de IAM.</li>
   <li>El AWS Command Line Interface (AWS CLI) para configurar las credenciales de AWS </li>
