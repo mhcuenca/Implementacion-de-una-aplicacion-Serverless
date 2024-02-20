@@ -9,6 +9,9 @@ base de datos mediante solicitud HTTP. A continuacion se muestra el diagrama de 
   <li>Una base de datos para almacenar elementos.</li>
   <li>Permisos para que la aplicación se ejecute de forma segura.</li>
 </ol>  
+<img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/implement%20app.PNG" alt="alternatetext">
+
 
 Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente configuracion
+
 <img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/RDS1.PNG" alt="alternatetext">
