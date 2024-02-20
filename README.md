@@ -11,3 +11,4 @@ base de datos mediante solicitud HTTP. A continuacion se muestra el diagrama de 
 </ol>  
 
 Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente configuracion
+<img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/RDS1.PNG" alt="alternatetext">
