@@ -20,6 +20,8 @@ Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente c
 
 <img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/pgadmin.PNG" alt="alternatetext">  <img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/scriptsql.PNG" alt="alternatetext">
 
+<h2>Creacion de Secreto para las credenciales de nuestra base de datos</h2>
+
 <p>Haremos tambien uso del servicio de AWS Secret Manager para las credenciales de acceso a nuestra base de datos ( user,password, host, port, database) que se usaran en nuestra conexion desde la funcion Lambda, el nombre de nuestro secreto lo pasaremos como variable de ambiente en nuestra plantilla de AWS SAM </p>
 
 <img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/secret1.PNG" alt="alternatetext">  <img src="https://github.com/mhcuenca/Implementacion-de-una-aplicacion-Serverless/blob/main/images/secret2.PNG" alt="alternatetext">
