@@ -35,5 +35,5 @@ Para utilizar la CLI de AWS SAM, necesita lo siguiente:
 </p>
 <ul>
   <li>Una cuenta de AWS, credenciales de (IAM) y un par de claves de acceso de IAM.</li>
-  <li>El AWS Command Line Interface (AWS CLI) para configurar las credenciales de AWS </li>
+  <li>El AWS Command Line Interface (AWS CLI) para configurar las credenciales de AWS, esto se realiza con el comando <code>aws configure</code> </li>
 </ul>
