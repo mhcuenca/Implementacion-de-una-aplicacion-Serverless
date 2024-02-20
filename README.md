@@ -28,3 +28,12 @@ Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente c
 
 <p>Nota: Recordar que se le tiene que dar permisos al rol de IAM de la funcion Lambda que se mostrara mas adelante para que se pueda acceder al secret manager</p>
 
+<h2>Instalacion de AWS CLI y CLI AWS SAM</h2>
+
+<p>Haremos uso de IDE(Visual Studio Code) para crear la plantillas de AWS SAM y la funcion Lambda
+Para utilizar la CLI de AWS SAM, necesita lo siguiente:
+</p>
+<ul>
+  <li>Una cuenta de AWS, credenciales de (IAM) y un par de claves de acceso de IAM.</li>
+  <li>El AWS Command Line Interface (AWS CLI) para configurar las credenciales de AWS </li>
+</ul>
