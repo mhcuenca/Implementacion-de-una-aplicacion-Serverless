@@ -1,7 +1,7 @@
 <h1>Implementacion-de-una-aplicacion-Serverless</h1>
 
 <p> Implementaremos un aplicacion serverless con el lenguaje nodejs 18.x. Esta aplicacion procesa las solicitudes para obtener el cambio del dolar por fecha de una 
-base de datos mediante solicitud HTTP. A continuacion se muestra el diagrama de implementacion que consta de los siguiente elementos</p>
+base de datos mediante solicitud HTTP. A continuacion se muestra el diagrama de implementacion que consta de los siguientes elementos</p>
 
 <ol>
   <li>Función que contiene la lógica necesaria para procesar la solicitud.</li>
@@ -10,3 +10,4 @@ base de datos mediante solicitud HTTP. A continuacion se muestra el diagrama de 
   <li>Permisos para que la aplicación se ejecute de forma segura.</li>
 </ol>  
 
+Primero crearemos nuestra base de datos RDS Aurora PostgreSQL con la siguiente configuracion
