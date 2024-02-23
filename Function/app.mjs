@@ -1,4 +1,4 @@
-mport pkg from 'pg';
+import pkg from 'pg';
 import AWS from '@aws-sdk/client-secrets-manager';
 
 const {SecretsManagerClient, GetSecretValueCommand} = AWS;
